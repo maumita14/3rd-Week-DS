@@ -1,0 +1,15 @@
+#include<stdio.h>{
+void readMatrix(int p,intq,int r,int a[p][q][r]){
+    int i,j,k;
+    printf("enter elements of %dx%dx%dx matrix:\n",p,q,r);
+
+    for (i=0;i<p;i++){
+        for(j=0;j<q;j++){
+            for(k=0;k<r;k++){
+                scanf("%d",&a[i][j][k]);
+            }
+        }
+    }
+}
+return 0;
+}

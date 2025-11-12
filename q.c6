@@ -1,0 +1,10 @@
+#imclude<stdio.h>
+int main(){
+    int n;
+    printf(" size of the square matrix:");
+    scanf("%d" &n);
+    int arr[n][n];
+    readMatrix(n,arr);
+    displayMatrix(n,arr);
+    return0;
+}
